@@ -1,0 +1,42 @@
+{
+  "name": "circular-protocol-api",
+  "version": "1.0.0",
+  "description": "Circular Protocol Blockchain Official NodeJS API",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build:cjs": "webpack --config webpack.config.cjs.js",
+    "build:esm": "webpack --config webpack.config.esm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/circular-protocol/circular-js-npm.git"
+  },
+  "type": "module",
+  "keywords": [
+    "Blockchain",
+    "Circular",
+    "Protocol",
+    "Smart",
+    "Contracts",
+    "Circular",
+    "Web",
+    "3.0"
+  ],
+  "author": "Danny De Novi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/circular-protocol/circular-js-npm/issues"
+  },
+  "homepage": "https://github.com/circular-protocol/circular-js-npm#readme",
+  "dependencies": {
+    "elliptic": "^6.5.7",
+    "node-fetch": "^3.3.2",
+    "sha256": "^0.2.0"
+  },
+  "exports": {
+    ".": {
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.js"
+    }
+  }
+}
