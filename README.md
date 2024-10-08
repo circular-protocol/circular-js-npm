@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is the **Circular Layer 1 Blockchain Protocol Interface Library**, an open-source Node.js package designed to interact with the Circular Blockchain platform and its associated Network Access Gateway (NAG). This package provides a comprehensive set of APIs to manage wallets, assets, smart contracts, and blockchain transactions. Developed by Circular Global Ledgers, Inc., this package is intended for both private and commercial use.
+This is the **Circular Protocol Node.js API**, an open-source Node.js package designed to interact with the Circular Blockchain platform and its associated Network Access Gateway (NAG). This package provides a comprehensive set of APIs to manage wallets, assets, smart contracts, and blockchain transactions.
 
 ### Version: 1.0.8
 - **Creation Date**: 7/12/2022
