@@ -1,5 +1,5 @@
 
-# Circular Protocol NodeJS API
+# Circular Protocol Node.js API
 
 ## Overview
 
