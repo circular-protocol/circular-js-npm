@@ -6,7 +6,7 @@
   "scripts": {
     "build:cjs": "webpack --config webpack.config.cjs.js",
     "build:esm": "webpack --config webpack.config.esm.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -39,5 +39,9 @@
       "require": "./lib/index.cjs",
       "import": "./lib/index.js"
     }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nock": "^13.5.5"
   }
 }
