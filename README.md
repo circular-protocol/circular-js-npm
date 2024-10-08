@@ -1,5 +1,5 @@
 
-# Circular Layer 1 Blockchain Protocol Interface Library
+# Circular Protocol NodeJS API
 
 ## Overview
 
