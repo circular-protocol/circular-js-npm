@@ -5,7 +5,9 @@
   "main": "./lib/index.js",
   "scripts": {
     "build:cjs": "webpack --config webpack.config.cjs.js",
-    "build:esm": "webpack --config webpack.config.esm.js"
+    "build:esm": "webpack --config webpack.config.esm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
