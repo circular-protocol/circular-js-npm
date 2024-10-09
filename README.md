@@ -5,11 +5,11 @@
 
 This is the **Circular Protocol Node.js API**, an open-source Node.js package designed to interact with the Circular Blockchain platform and its associated Network Access Gateway (NAG). This package provides a comprehensive set of APIs to manage wallets, assets, smart contracts, and blockchain transactions.
 
-### Version: 1.0.9
+### Version: 1.0.10
 - **Creation Date**: 7/12/2022
-- **Last Update**: 06/10/2024
+- **Last Update**: 09/10/2024
 - **Originator**: Gianluca De Novi, PhD
-- **Contributors**: redorc83, Danny De Novi
+- **Contributors**: Danny De Novi, redorc83
 
 ---
 
@@ -56,7 +56,7 @@ CircularProtocolAPI.GetWallet('BlockchainHex', 'WalletAddressHex')
 
 ## API Documentation
 
-Find more on [GitBook](https://circular-protocol.gitbook.io/circular-sdk)
+Find more on [GitBook](https://circular-protocol.gitbook.io/circular-sdk/api-docs/node.js)
 
 ## License
 
