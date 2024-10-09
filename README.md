@@ -36,7 +36,7 @@ npm install circular-protocol-api
 
 ### CommonJS
 ```js
-const CircularProtocolAPI = require('circularprotocolapi');
+const CircularProtocolAPI = require('circular-protocol-api');
 
 CircularProtocolAPI.CheckWallet('BlockchainHex', 'WalletAddressHex')
     .then(response => console.log(response))
@@ -45,7 +45,7 @@ CircularProtocolAPI.CheckWallet('BlockchainHex', 'WalletAddressHex')
 
 ### ES Modules
 ```js
-import CircularProtocolAPI from 'circularprotocolapi';
+import CircularProtocolAPI from 'circular-protocol-api';
 
 CircularProtocolAPI.GetWallet('BlockchainHex', 'WalletAddressHex')
     .then(wallet => console.log(wallet))
