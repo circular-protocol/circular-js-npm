@@ -28,7 +28,7 @@ describe('CircularProtocolAPI - GetBlockchains', () => {
   });
 
   test('should return the list of blockchains with their addresses and names', async () => {
-    const response = await CircularProtocolAPI.GetBlockchains();
+    const response = await CircularProtocolAPI.getBlockchains();
 
     expect(response.Result).toBe(200);
     expect(response.Response.Blockchains).toEqual([
