@@ -38,18 +38,24 @@ npm install circular-protocol-api
 ```js
 const CircularProtocolAPI = require('circular-protocol-api');
 
-CircularProtocolAPI.CheckWallet('BlockchainHex', 'WalletAddressHex')
-    .then(response => console.log(response))
-    .catch(error => console.error('Error:', error));
+(async () => {
+    try {
+        const blockchain = 'your-blockchain';
+        const wallet = 'your-wallet';
+        const walletExists = await CircularProtocolAPI.getWallet(blockchain, wallet); // 60-second timeout, 5-second interval
+        console.log('Wallet exists:', walletExists);
+    } catch (error) {
+        console.error('Error:', error);
+    }
+})();
 ```
 
 ### ES Modules
 ```js
 import CircularProtocolAPI from 'circular-protocol-api';
 
-CircularProtocolAPI.GetWallet('BlockchainHex', 'WalletAddressHex')
-    .then(wallet => console.log(wallet))
-    .catch(error => console.error('Error:', error));
+var walletExists = await CircularProtocolAPI.getWallet('BlockchainHex', 'WalletAddressHex');
+console.log(walletExists)
 ```
 
 ---
