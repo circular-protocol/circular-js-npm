@@ -1,6 +1,6 @@
 {
   "name": "circular-protocol-api",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Circular Protocol Blockchain Official NodeJS API",
   "main": "./lib/index.js",
   "scripts": {
