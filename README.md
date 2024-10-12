@@ -64,6 +64,8 @@ console.log(walletExists)
 
 Find more on [GitBook](https://circular-protocol.gitbook.io/circular-sdk/api-docs/node.js)
 
+---
+
 ## License
 
 This library is open-source and available for both private and commercial use. For detailed terms, please refer to the LICENSE file provided in the repository.
