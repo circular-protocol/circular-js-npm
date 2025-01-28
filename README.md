@@ -5,9 +5,9 @@
 
 This is the **Circular Protocol Node.js API**, an open-source Node.js package designed to interact with the Circular Blockchain platform and its associated Network Access Gateway (NAG). This package provides a comprehensive set of APIs to manage wallets, assets, smart contracts, and blockchain transactions.
 
-### Version: 1.0.12
+### Version: 1.0.14
 - **Creation Date**: 7/12/2022
-- **Last Update**: 12/10/2024
+- **Last Update**: 28/01/2025
 - **Originator**: Gianluca De Novi, PhD
 - **Contributors**: Danny De Novi, redorc83
 
